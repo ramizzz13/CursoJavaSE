@@ -21,6 +21,7 @@ public class Funciones {
      * Descripción: Función que calcula el area de un circulo.
      * @param r Valor del radio que se utiliza para el calculo.
      * @return Regresa el valor del area del circulo.
+     * @author Ramiz Perez
      */
     public static double circleArea(double r){
         return Math.PI * Math.pow(r,2);
@@ -30,6 +31,7 @@ public class Funciones {
      * Descripción: Función de calcula el area de una esfera.
      * @param r Valor del radio que se utilizara para el calculo.
      * @return Regresa el valor del area de la esfera.
+     * @author Ramiz Perez
      */
     public static  double sphereArea(double r){
         return 4 * Math.PI * Math.pow(r,2);
@@ -39,6 +41,7 @@ public class Funciones {
      * Descripción: Función que calcula el volumen de un esfera.
      * @param r Valor del radio que se utilizara para el calculo.
      * @return Regresa el valor del volumen de la esfera.
+     * @author Ramiz Perez
      */
     public static double sphereVolume(double r){
         return (4/3) * Math.PI * Math.pow(r,3);
@@ -49,6 +52,7 @@ public class Funciones {
      * @param quantity Cantidad de dinero.
      * @param currency Tipo de moneda: solo acepta MNX or COP.
      * @return quantity Devuelve la cantidad actualizada en Dolares.
+     * @author Ramiz Perez
      */
     public static  double convertToDollar(double quantity, String currency){
         //MXN COP
