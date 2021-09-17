@@ -1,5 +1,5 @@
 import org.omg.CORBA.WStringSeqHelper;
-
+            //Upper Camel Case
 public class NamingJava {
     public static void main(String[] args) {
         int celphone = 132213;
@@ -17,7 +17,9 @@ public class NamingJava {
         int MAX_WIDTH = 9999;
         int MIN_WIDTH = 1;
 
-
+        // Lowe Camel Case
+        String fullName= "Ramiz Perez Ordoñez";
+        int sizeInCentimeters = 26;
 
     }
 }
